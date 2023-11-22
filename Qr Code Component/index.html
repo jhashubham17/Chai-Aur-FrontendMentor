@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- link TailwindCss -->
+    <link href="/output.css" rel="stylesheet">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(209, 232, 250);">
+
+    <!-- create  div container box -->
+
+    <div class="w-full h-screen flex justify-center items-center flex-col ">
+
+        <!-- headline -->
+
+        <div class="attribution ">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Shubham</a>.
+        </div>
+
+        <!-- up-part container -->
+        <div
+            class="flex flex-col justify-center items-center w-96 pb-10 lg:w-80  h-fit bg-white py-4 lg:px-4 lg:py-4  rounded-lg ">
+
+            <!-- image container -->
+            <div>
+                <img src="images/image-qr-code.png" alt="qr-png" class=" w-80 rounded-lg">
+            </div>
+
+            <!--down-part container  -->
+            <div class="mt-5 lg:mt-2">
+                <h2 class="font-extrabold text-2xl lg:text-lg text-center tracking-wider">Improve your front-end <br>
+                    skills
+                    by building
+                    projects</h2>
+                <p class="text-center text-lg lg:text-sm mt-4 lg:mt-2 tracking-wider pb-5 ">Scan the QR code to visit
+                    Frontend
+                    <br>
+                    Mentor and take
+                    your
+                    coding skills to
+                    <br>
+                    the
+                    next
+                    level
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
